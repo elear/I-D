@@ -104,23 +104,26 @@ This document explains what is meant by "end users" in {{who}}, why they tend to
 IETF work in {{why}}, and how that is done in {{how}}.
 
 
-# What Are "End Users"? {#who}
+# Who Are "End Users"? {#who}
 
-In this document, "end users," means non-technical users whose activities IETF protocols are
-designed to support, sometimes indirectly. Thus, the end user of a protocol to manage routers is
-not a router administrator; it is the people using the network that the router operates within.
+In this document, "end users," means the billions of people whose activities IETF protocols are
+designed to support, sometimes indirectly. An end user could be an individual, or it could be a
+collection of them; whether that be a social movement, a business, or a government that represents
+a large number of people.  An end user might be a doctor using an IP-enabled X-Ray machine, or
+a first responder with other first responders in an emergency, or a student practicing a foreign
+language.  An end user might be the home owner using an Internet-enabled security system, or the
+people who run a large financial institution.  We are all, in one way or another, end users.
 
-An end user could be an individual, or it could be a collection of them; whether that be a social
-movement, a business, or a government that represents a large number of people.
+While those who build and operate networks and services are users to, our focus is on those to
+whom we deliver these network functions, and not ourselves.
 
-That said, end users are not necessarily a homogenous group; often, but not always, interactions on
+End users are not necessarily a homogenous group; often, but not always, interactions on
 the Internet are characterised by a seller/buyer, publisher/reader, or service provider/consumer
 relationship.
 
-Also, it's important to note that even though we use the term "user" here, this does not
-necessarily denote a passive relationship with the Internet; someone producing content, selling
-goods or providing a service is equally a user of the Internet. The emphasis here is on "end" -- as
-in endpoint {{?RFC3724}}.
+End users do not always have a necessarily have a passive relationship with the Internet;
+someone producing content, selling goods or providing a service is equally a user of the Internet. 
+The emphasis here is on "end" -- as in endpoint {{?RFC3724}}.
 
 Similarly, a person whose interests we need to consider might not directly be an end-user of
 a specific system connected to the Internet. For example, if a child is using a browser, the
@@ -134,12 +137,14 @@ compared to those involving people with accounts on some web service, such peopl
 included in this document's concept of end-user.
 
 
-# Why End Users are Prioritised {#why}
+# What does it mean to prioritise end users?  {#why}
 
-While networks need to be managed, employers and equipment vendors need to meet business goals, and
-so on, the IETF's mission is to "build a better human society" {{?RFC3935}} and -- on the Internet
--- society is composed of end users, along with groups of them forming business, governments,
-clubs, civil society organizations, and other institutions that influence it.
+When we design protocols and create architectural frameworks, we do so for end users, considering
+their diverse, and often conflicting, needs.  Is there privacy properly protected?  Are we offering
+secure mechanisms for critical infrastructure?  Conversely, are we opening end users up to either
+cyber- or physical attacks?  We might in some instances be doing all of the above.  We must be
+always mindful of our impact.  When our works negatively certain users, we should consider mitigations we
+can recommend.
 
 Prioritising end users helps the IETF achieve its mission, and also helps to assure the long-term
 health of the Internet. By prioritising their concerns, we assure that the Internet reaches the
@@ -148,22 +153,22 @@ greatest number of people, thereby delivering greater utility by maximising its 
 Prioritising end users' needs also helps to assure that the Internet itself retains end users'
 trust, preserving the benefit its network effect brings.
 
-
 # How End Users are Prioritised {#how}
 
 The IETF community does not have any specific insight into what is "good for end users"; to help
 make decisions involving them, it interacts with the greater Internet community. Because end users
 are typically not technical experts, the IETF has a responsibility to consider their interests, and
-engages with those who understand how IETF work will affect end users, such as civil society
+engage with those who understand the impact of our work, such as civil society
 organisations, as well as governments, businesses and other groups representing some aspect of end
 user interests.
 
-When we've identified a conflict between the interests of end users and another stakeholder (e.g.,
-a network operator), and need a "tiebreaker", we should err on the side of finding a solution that
-doesn't harm end users.
+When we've identified a conflict between the interests of different groups of end users, we will
+be hard pressed to choose one group over another.  In this case, we should document the risks and
+benefits to the different groups, and inform these groups in some manner of the potential impact
+so that we can make decisions that cause the least harm.
 
-Note that "harm" is not defined in this document; that is something that the relevant body (e.g.,
-Working Group) needs to discuss.
+Note that "harm" is not defined in this document; that is something that must be considered on a
+case-by-case basis.
 
 The IETF has already established a body of guidance for situations where this sort of conflict is
 common, including (but not limited to) {{?RFC7754}} on filtering, {{?RFC7258}} and {{?RFC7624}} on
